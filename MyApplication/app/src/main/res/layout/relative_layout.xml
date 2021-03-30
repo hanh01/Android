@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvA"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#F44336"
+        android:text="A"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#0E87BD"
+        android:text="B"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:layout_toLeftOf="@+id/tvE"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#4CAF50"
+        android:text="C"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:layout_centerVertical="true"
+        />
+
+    <TextView
+        android:id="@+id/tvE"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#FF9800"
+        android:text="E"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/tvD"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#9C27B0"
+        android:text="D"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:id="@+id/tvF"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#FFEB3B"
+        android:text="F"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#FFEB3B"
+        android:text="G"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:layout_above="@+id/tvD"
+        android:layout_alignParentRight="true"
+
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#673AB7"
+        android:text="H"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:layout_above="@+id/tvF"
+        android:layout_centerHorizontal="true"
+
+        />
+</RelativeLayout>

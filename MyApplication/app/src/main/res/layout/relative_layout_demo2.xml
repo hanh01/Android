@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imP"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/pokemon"
+        android:scaleType="centerCrop"
+        android:layout_marginRight="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tvA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Byrdie"
+        android:textStyle="bold"
+        android:textSize="33sp"
+        android:textColor="#635B5B"
+        android:layout_toRightOf="@id/imP"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imP"
+        android:text="10 phut truoc"
+        android:layout_marginTop="10dp"
+        android:textColor="#8A8787"
+        android:textSize="25sp"
+        android:layout_below="@id/tvA"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/imP"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ivB"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Pokemon Go thu ve 2 ty do"
+            android:textColor="#8A8787"
+            android:textSize="25sp"
+            android:layout_below="@id/imP"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:src="@drawable/image3"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Doanh thu Pokemon go"
+            android:textStyle="bold"
+            android:textColor="#8A8787"
+            android:textSize="25sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="dantri.com.vn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#8A8787"
+            android:textSize="25sp"
+            android:background="@drawable/border_style"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:background="@drawable/border_style"
+            >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="LIKE"
+                android:background="#00000000"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:gravity="center"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="COMMENT"
+                android:background="#00000000"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:gravity="center"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="SHARE"
+                android:background="#00000000"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

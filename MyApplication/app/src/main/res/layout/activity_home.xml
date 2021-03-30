@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="T1908A"
+        android:textSize="50sp"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        android:background="#FFEB3B"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/btLogin"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="LOGIN"
+        android:textColor="#B33535"
+        android:background="#8BC34A"
+        android:layout_marginTop="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/ivCover"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:src="@drawable/image"
+        android:background="#FFC107"
+        android:scaleType="centerCrop"
+        />
+
+    <EditText
+        android:id="@+id/edUsername"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Username"
+        />
+
+    <EditText
+        android:id="@+id/edPassword"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:layout_margin="10dp"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:layout_margin="10dp"
+            />
+
+    </RadioGroup>
+
+
+</LinearLayout>
