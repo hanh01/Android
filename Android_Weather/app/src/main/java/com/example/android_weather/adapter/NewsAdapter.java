@@ -19,6 +19,7 @@ import java.util.Date;
 import java.util.List;
 
 public class NewsAdapter extends RecyclerView.Adapter {
+
     private Activity activity;
     private List<Item> list;
 
@@ -43,21 +44,22 @@ public class NewsAdapter extends RecyclerView.Adapter {
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
         ViewHolder vh = (ViewHolder) holder;
         Item model = list.get(position);
+
         vh.tvDate.setText(convertTime(model.getDateTime()));
         vh.tvTemp.setText(String.valueOf(model.getTemperature().getValue()));
-        String url = "";
+
         if(model.getWeatherIcon() < 10){
-            url = "https://developer.accuweather.com/sites/default/files/0" + model.getWeatherIcon() + "-s.png" ;
+            Glide.with(activity).load("https://developer.accuweather.com/sites/default/files/0" + model.getWeatherIcon() + "-s.png").into(vh.ivIcon);
         }else{
-            url = "https://developer.accuweather.com/sites/default/files/" + model.getWeatherIcon() + "-s.png" ;
+            Glide.with(activity).load("https://developer.accuweather.com/sites/default/files/" + model.getWeatherIcon() + "-s.png").into(vh.ivIcon);
         }
-        Glide.with(activity).load(url).into(vh.ivIcon);
     }
 
     @Override
     public int getItemCount() {
         return list.size();
     }
+
 
     public class ViewHolder extends RecyclerView.ViewHolder{
         TextView tvDate, tvTemp;

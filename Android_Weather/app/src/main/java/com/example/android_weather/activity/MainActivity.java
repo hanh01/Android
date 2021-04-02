@@ -25,10 +25,9 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity {
 
-    RecyclerView rvListNew;
-    List<Item> listData;
-    NewsAdapter adapter;
-
+    private RecyclerView rvListNew;
+    private List<Item> listData;
+    private NewsAdapter adapter;
     private TextView tvTemp,tvDes;
 
     @Override
@@ -49,12 +48,10 @@ public class MainActivity extends AppCompatActivity {
         // layout manager
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false);
 
-
         // recycleView
         rvListNew = findViewById(R.id.rvListNew);
         rvListNew.setLayoutManager(layoutManager);
         rvListNew.setAdapter(adapter);
-
 
     }
 
@@ -65,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
                 .build();
 
         APIManager service = retrofit.create(APIManager.class);
+
         service.getListData().enqueue(new Callback<List<Item>>() {
             @Override
             public void onResponse(Call<List<Item>> call, Response<List<Item>> response) {
@@ -72,9 +70,8 @@ public class MainActivity extends AppCompatActivity {
                     listData = response.body();
                     adapter.reloadData(listData);
 
-                   Item item = listData.get(0);
-                    tvTemp.setText(String.valueOf(item.getTemperature().getValue()));
-                   tvDes.setText(item.getIconPhrase());
+                    tvTemp.setText(String.valueOf(listData.get(0).getTemperature().getValue()));
+                   tvDes.setText(listData.get(0).getIconPhrase());
                 }
             }
 
