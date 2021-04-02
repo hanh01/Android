@@ -14,11 +14,11 @@ import java.util.List;
 public class ProductAdapter extends RecyclerView.Adapter {
 
     private Activity activity;
-    private List<Product> listProduct;
+    private List<Product> list;
 
-    public ProductAdapter(Activity activity, List<Product> listProduct){
+    public ProductAdapter(Activity activity, List<Product> list){
         this.activity = activity;
-        this.listProduct = listProduct;
+        this.list = list;
     }
 
     @NonNull
@@ -33,7 +33,7 @@ public class ProductAdapter extends RecyclerView.Adapter {
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
         ProductHolder vh = (ProductHolder) holder;
-        Product model = listProduct.get(position);
+        Product model = list.get(position);
         vh.ivImage.setImageResource(model.getImg());
         vh.tvName.setText(model.getName());
         vh.tvPrice.setText(model.getPrice());
@@ -42,7 +42,7 @@ public class ProductAdapter extends RecyclerView.Adapter {
 
     @Override
     public int getItemCount() {
-        return listProduct.size();
+        return list.size();
     }
 
 

@@ -7,6 +7,8 @@ public class Item {
     private String image;
     private Content content;
 
+
+
     public int getId() {
         return id;
     }

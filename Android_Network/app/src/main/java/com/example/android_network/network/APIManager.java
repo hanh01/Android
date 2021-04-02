@@ -2,6 +2,8 @@ package com.example.android_network.network;
 
 import com.example.android_network.model.Item;
 
+import java.util.List;
+
 import retrofit2.Call;
 import retrofit2.http.GET;
 
@@ -10,4 +12,7 @@ public interface APIManager {
 
     @GET("data.json")
     Call<Item> getItemData();
+
+    @GET("datas.json")
+    Call<List<Item>> getListData();
 }

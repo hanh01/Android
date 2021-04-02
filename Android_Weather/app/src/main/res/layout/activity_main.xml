@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.MainActivity"
+    android:background="@drawable/bg_weather">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Ha noi"
+        android:textColor="#fff"
+        android:textSize="60sp"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:id="@+id/tvDes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Nhiều mây"
+        android:textColor="#fff"
+        android:layout_below="@id/tvTitle"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tvTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="27"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textSize="120sp"
+        android:textStyle="bold"
+        android:layout_below="@id/tvDes"
+        android:layout_marginTop="15dp"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rvListNew"
+        android:layout_below="@id/tvTemp">
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>
