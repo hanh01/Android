@@ -86,7 +86,4 @@ public class NewsAdapter extends RecyclerView.Adapter {
         String goal = outFormat.format(date);
         return goal;
     }
-
-
-
 }
