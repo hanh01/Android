@@ -2,66 +2,102 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ea0203c-08a9-4623-bb36-c9ad76982e5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Android_Network/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Network/app/src/main/java/com/example/android_network/activity/ListNewsActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Network/app/src/main/java/com/example/android_network/adapter/NewsAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Network/app/src/main/res/layout/activity_list_news.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Network/app/src/main/res/layout/item_news.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_RecyclerView/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/src/androidTest/java/com/example/android_weather/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/src/main/java/com/example/android_weather/activity/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/src/main/java/com/example/android_weather/adapter/NewsAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/src/main/java/com/example/android_weather/model/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/src/main/java/com/example/android_weather/model/Temperature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/src/main/java/com/example/android_weather/network/APIManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/src/main/res/drawable/bg_weather.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/src/main/res/drawable/icon.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/src/main/res/layout/item_news.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/app/src/test/java/com/example/android_weather/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Android_Weather/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Android_Network/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Android_Network/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Android_Network/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Android_Network/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SS4 copy/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/app/src/androidTest/java/com/example/android_sqldatabase/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/app/src/main/java/com/example/android_sqldatabase/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/app/src/main/java/com/example/android_sqldatabase/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/app/src/main/java/com/example/android_sqldatabase/database/AppDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/app/src/main/java/com/example/android_sqldatabase/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/app/src/test/java/com/example/android_sqldatabase/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android_SQLdatabase/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplication/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/androidTest/java/com/example/sqlite/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/main/java/com/example/sqlite/IOnClickUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/main/java/com/example/sqlite/ListUserActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/main/java/com/example/sqlite/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/main/java/com/example/sqlite/UpdateActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/main/java/com/example/sqlite/adapter/UserAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/main/java/com/example/sqlite/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/main/java/com/example/sqlite/database/AppDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/main/java/com/example/sqlite/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/main/res/layout/activity_list_user.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/main/res/layout/activity_update.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/main/res/layout/item_news.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/app/src/test/java/com/example/sqlite/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQLite/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS4/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android_File/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Android_File/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Android_Network/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Android_Network/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Android_Network/app/src/main/java/com/example/android_network/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Android_Network/app/src/main/java/com/example/android_network/model/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Android_Network/app/src/main/java/com/example/android_network/network/APIManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Android_Network/app/src/main/java/com/example/android_network/network/APIManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Android_RecyclerView/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Android_RecyclerView/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Android_RecyclerView/app/src/main/java/com/example/android_recyclerview/ProductAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Android_RecyclerView/app/src/main/java/com/example/android_recyclerview/ProductAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android_Network/app/src/main/java/com/example/android_network/activity/ListNewsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Android_Network/app/src/main/java/com/example/android_network/activity/ListNewsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android_Network/app/src/main/res/layout/activity_list_news.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Android_Network/app/src/main/res/layout/activity_list_news.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SS4 copy/app/src/main/java/com/demo/ss4/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/SS4 copy/app/src/main/java/com/demo/ss4/MainActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

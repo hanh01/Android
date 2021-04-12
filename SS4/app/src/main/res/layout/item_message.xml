@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_avatar1"
+        android:id="@+id/ivAvatar"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/ivAvatar"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:id="@+id/tvUser" />
+
+    <TextView
+        android:id="@+id/tvContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Content"
+        android:layout_below="@id/tvUser"
+        android:layout_toRightOf="@id/ivAvatar"
+        android:layout_marginTop="5dp" />
+
+</RelativeLayout>

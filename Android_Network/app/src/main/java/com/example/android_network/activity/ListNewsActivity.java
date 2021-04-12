@@ -41,7 +41,7 @@ public class ListNewsActivity extends AppCompatActivity {
         adapter = new NewsAdapter(ListNewsActivity.this, listData);
 
         //Layout manager
-        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this,RecyclerView.VERTICAL,false);
+        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false);
 
 
         // RecycleView
