@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/edName"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvText"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvText"
+        android:text="Quantity"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/edQuantity"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvText"
+        android:layout_toRightOf="@+id/tvTitle"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btAdd"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitle"
+        android:layout_marginTop="20dp"
+        android:text="ADD"
+        android:layout_toRightOf="@id/tvTitle"/>
+
+    <Button
+        android:id="@+id/btView"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btAdd"
+        android:text="View"
+        android:layout_toRightOf="@id/tvTitle"/>
+
+
+
+</RelativeLayout>
